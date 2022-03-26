@@ -1,9 +1,27 @@
-footer.footer {
-    background-color: #343a40;
-    color: #fff;
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
     text-align: center;
     position: absolute;
     bottom: 0;
     height: 30px;
     width: 100%;
 }
+
+.container {
+    width: auto;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
